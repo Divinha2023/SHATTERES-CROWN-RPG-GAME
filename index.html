@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHATTERES CROWN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow" id="screenEyebrow">Arena RPG Prototype</p>
+          <h1>SHATTERES CROWN</h1>
+        </div>
+        <div class="top-stats" aria-live="polite">
+          <div class="round-panel">
+            <span>Turno</span>
+            <strong id="roundCounter">1</strong>
+          </div>
+          <div class="round-panel">
+            <span>Ouro</span>
+            <strong id="goldCounter">0</strong>
+          </div>
+          <div class="round-panel">
+            <span>Nivel</span>
+            <strong id="levelCounter">1</strong>
+          </div>
+        </div>
+      </header>
+
+      <section class="screen creator-screen active" id="creatorScreen" aria-label="Criacao do personagem">
+        <aside class="parchment creator-panel">
+          <label class="field-label" for="playerName">enter name below</label>
+          <input id="playerName" maxlength="18" type="text" value="Coroa Quebrada" />
+
+          <div class="creator-choices" id="creatorChoices"></div>
+
+          <div class="skill-builder">
+            <div class="skill-list" id="creatorSkills"></div>
+            <div class="points-box">
+              <span>skill points</span>
+              <strong id="creationPoints">9</strong>
+            </div>
+          </div>
+        </aside>
+
+        <section class="creator-stage">
+          <div class="choice-preview">
+            <img id="creatorPreview" src="assets/crown-knight.png" alt="Personagem escolhido" />
+          </div>
+          <div class="creator-actions">
+            <button class="seal-button accept" id="startGameButton" type="button" aria-label="Confirmar personagem">✓</button>
+            <button class="seal-button cancel" id="randomizeButton" type="button" aria-label="Randomizar personagem">?</button>
+          </div>
+        </section>
+      </section>
+
+      <section class="screen hub-screen" id="hubScreen" aria-label="Menu principal">
+        <aside class="stats-card" id="hubStats"></aside>
+        <section class="hub-stage">
+          <img id="hubCharacter" src="assets/crown-knight.png" alt="Meu personagem" />
+        </section>
+        <nav class="main-menu" aria-label="Menu do jogo">
+          <button type="button" data-route="battle">Batalha</button>
+          <button type="button" data-route="shop">Loja</button>
+          <button type="button" data-route="train">Upar personagem</button>
+        </nav>
+      </section>
+
+      <section class="screen shop-screen" id="shopScreen" aria-label="Loja">
+        <aside class="stats-card" id="shopStats"></aside>
+        <section class="shop-stage">
+          <img id="shopCharacter" src="assets/crown-knight.png" alt="Meu personagem na loja" />
+        </section>
+        <section class="parchment shop-panel">
+          <h2>Loja da Arena</h2>
+          <div class="shop-items" id="shopItems"></div>
+          <button class="small-button back-button" type="button" data-route="hub">Voltar</button>
+        </section>
+      </section>
+
+      <section class="screen train-screen" id="trainScreen" aria-label="Treino">
+        <aside class="stats-card" id="trainStats"></aside>
+        <section class="train-stage">
+          <img id="trainCharacter" src="assets/crown-knight.png" alt="Meu personagem em treino" />
+        </section>
+        <section class="parchment train-panel">
+          <h2>Upar personagem</h2>
+          <div class="skill-list train-list" id="trainSkills"></div>
+          <button class="small-button back-button" type="button" data-route="hub">Voltar</button>
+        </section>
+      </section>
+
+      <section class="screen battle-screen" id="battleScreen" aria-label="Tela de batalha">
+        <section class="battlefield" aria-label="Campo de batalha">
+          <div class="battle-sky"></div>
+          <div class="fog fog-a"></div>
+          <div class="fog fog-b"></div>
+          <div class="team allies" id="allyTeam"></div>
+          <div class="team enemies" id="enemyTeam"></div>
+          <div class="ground"></div>
+          <div class="slash-effect" id="slashEffect"></div>
+        </section>
+
+        <section class="hud">
+          <section class="command-panel">
+            <div class="status-line">
+              <span id="turnHint">Escolha uma acao para iniciar o combate.</span>
+              <button class="small-button" id="resetButton" type="button">Sair</button>
+            </div>
+            <div class="actions" id="actions">
+              <button type="button" data-action="quick">Ataque leve</button>
+              <button type="button" data-action="heavy">Ataque forte</button>
+              <button type="button" data-action="skill">Especial</button>
+              <button type="button" data-action="taunt">Provocar</button>
+              <button type="button" data-action="guard">Defender</button>
+              <button type="button" data-action="rest">Folego</button>
+            </div>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
