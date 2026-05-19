@@ -140,6 +140,13 @@ h1 {
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.65);
 }
 
+.byline {
+  margin: 0.45rem 0 0;
+  color: rgba(231, 216, 184, 0.78);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
 .round-panel {
   min-width: 104px;
   padding: 10px 14px;

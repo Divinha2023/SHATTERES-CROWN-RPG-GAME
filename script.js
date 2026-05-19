@@ -59,9 +59,9 @@ const GAME_DATA = {
       rewardXp: 45,
     },
     {
-      id: "orc-guard",
-      name: "Guarda Orc",
-      role: "Orc veterano",
+      id: "orc-chief",
+      name: "Orc Chefe",
+      role: "Chefe da arena",
       img: "assets/orc-warrior.png",
       skills: { strength: 3, agility: 1, attack: 3, defence: 2, vitality: 3, charisma: 1, stamina: 2, magicka: 1 },
       rewardGold: 45,
@@ -537,7 +537,7 @@ class GameView {
   renderBattle() {
     const { player, enemy, phase, busy } = this.model.state;
     if (!player || !enemy) return;
-    document.body.dataset.battleScene = enemy.baseId === "ogre" ? "dungeon" : "coliseum";
+    document.body.dataset.battleScene = enemy.baseId === "ogre" || enemy.baseId === "orc-chief" ? "dungeon" : "coliseum";
     this.dom.turnHint.textContent =
       phase === "battle"
         ? `${player.name} contra ${enemy.name}`
@@ -844,5 +844,6 @@ class GameController {
 const model = new GameModel(GAME_DATA);
 const view = new GameView(model);
 new GameController(model, view);
+window.shatteresCrownGame = { model, view };
 view.applyTheme();
 view.render();

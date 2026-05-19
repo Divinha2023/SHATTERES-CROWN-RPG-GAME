@@ -1,6 +1,8 @@
 {
-  "name": "shatteres-crown-localhost",
+  "name": "shatteres-crown-rpg-game",
   "version": "1.0.0",
+  "description": "SHATTERES CROWN RPG GAME, um RPG de arena medieval feito por Divanildo Simões para rodar no localhost.",
+  "author": "Divanildo Simões",
   "private": true,
   "scripts": {
     "start": "node server.js"
