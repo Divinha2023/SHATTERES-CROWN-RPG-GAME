@@ -105,3 +105,9 @@ Poder: forca e dominio, com **+1 strength** e **+1 vitality**.
 ## Autor
 
 Feito por **Divanildo Simões**.
+
+## GAMEPLAY DEMONSTRATITVA SHATTERES CROWN
+
+Assista ao video demonstrativo do jogo:
+
+https://screenapp.io/app/v/JTgq1wuYCK
