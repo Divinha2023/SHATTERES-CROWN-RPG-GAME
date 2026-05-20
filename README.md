@@ -60,9 +60,31 @@ SHATTERES CROWN RPG GAME
 
 ## Imagens do projeto
 
-### Tela inicial
+### Tela inicial - escolha de personagem
 
-![Tela inicial](docs/screenshots/01-tela-inicial.png)
+#### Cavaleiro da Coroa
+
+Poder: espada e escudo, com **+1 strength** e **+1 defence**.
+
+![Cavaleiro da Coroa - +1 strength e +1 defence](docs/screenshots/01-tela-inicial-cavaleiro-da-coroa.png)
+
+#### Arcanista Rubra
+
+Poder: fogo e risco, com **+2 magicka**.
+
+![Arcanista Rubra - +2 magicka](docs/screenshots/02-tela-inicial-arcanista-rubra.png)
+
+#### Patrulheira Prateada
+
+Poder: rapidez e critico, com **+1 agility** e **+1 attack**.
+
+![Patrulheira Prateada - +1 agility e +1 attack](docs/screenshots/03-tela-inicial-patrulheira-prateada.png)
+
+#### Regente Obsidiano
+
+Poder: forca e dominio, com **+1 strength** e **+1 vitality**.
+
+![Regente Obsidiano - +1 strength e +1 vitality](docs/screenshots/04-tela-inicial-regente-obsidiano.png)
 
 ### Menu principal
 
@@ -72,13 +94,13 @@ SHATTERES CROWN RPG GAME
 
 ![Loja](docs/screenshots/03-loja.png)
 
-### Batalha contra Orc simples
+### Batalha contra Orc da Arena
 
-![Batalha contra Orc simples](docs/screenshots/04-batalha-orc-simples.png)
+![Batalha contra Orc da Arena](docs/screenshots/04-batalha-orc-simples.png)
 
-### Batalha contra Orc Chefe
+### Batalha contra Ogro de Ferro
 
-![Batalha contra Orc Chefe](docs/screenshots/05-batalha-orc-chefe.png)
+![Batalha contra Ogro de Ferro](docs/screenshots/05-batalha-ogro-de-ferro.png)
 
 ## Autor
 
