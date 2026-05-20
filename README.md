@@ -66,25 +66,25 @@ SHATTERES CROWN RPG GAME
 
 Poder: espada e escudo, com **+1 strength** e **+1 defence**.
 
-![Cavaleiro da Coroa - +1 strength e +1 defence](docs/screenshots/01-tela-inicial-cavaleiro-da-coroa.png)
+![Cavaleiro da Coroa - +1 strength e +1 defence](docs/screenshots/1.1-tela-inicial-cavaleiro-da-coroa.png)
 
 #### Arcanista Rubra
 
 Poder: fogo e risco, com **+2 magicka**.
 
-![Arcanista Rubra - +2 magicka](docs/screenshots/02-tela-inicial-arcanista-rubra.png)
+![Arcanista Rubra - +2 magicka](docs/screenshots/1.2-tela-inicial-arcanista-rubra.png)
 
 #### Patrulheira Prateada
 
 Poder: rapidez e critico, com **+1 agility** e **+1 attack**.
 
-![Patrulheira Prateada - +1 agility e +1 attack](docs/screenshots/03-tela-inicial-patrulheira-prateada.png)
+![Patrulheira Prateada - +1 agility e +1 attack](docs/screenshots/1.3-tela-inicial-patrulheira-prateada.png)
 
 #### Regente Obsidiano
 
 Poder: forca e dominio, com **+1 strength** e **+1 vitality**.
 
-![Regente Obsidiano - +1 strength e +1 vitality](docs/screenshots/04-tela-inicial-regente-obsidiano.png)
+![Regente Obsidiano - +1 strength e +1 vitality](docs/screenshots/1.4-tela-inicial-regente-obsidiano.png)
 
 ### Menu principal
 
