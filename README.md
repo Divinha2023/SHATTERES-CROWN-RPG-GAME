@@ -110,4 +110,5 @@ Feito por **Divanildo Simões**.
 
 Assista ao video demonstrativo do jogo:
 
-[Assistir gameplay demonstrativa](docs/screenshots/gameplay-demonstrativa-shatteres-crown.mp4)
+<img width="692" height="388" alt="Gameplay" src="https://github.com/user-attachments/assets/d658580c-cd19-49ed-8721-c98752ebc880" />
+
